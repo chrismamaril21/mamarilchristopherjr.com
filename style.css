@@ -1,0 +1,721 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+html, body{
+	width: 100%;
+	height: 100%;	
+	font-size: 14px;
+	font-weight: normal;
+}
+.background{
+	width: 100%;
+	height: 110%;
+	background-image: url(ako.jpg);
+	background-size: cover;
+	position: fixed;
+	
+}
+
+
+.background1234{
+	width: 100%;
+	height: 110%;
+	background-image: url(1234.jpg);
+	background-size: cover;
+	position: fixed;
+	
+}
+
+
+
+
+.background2{
+	width: 1920px;
+	height: 820px;
+	background-color: black;
+}
+
+.background3{
+	width: 1600px;
+	height: 2200px;
+	background-color: black;
+}
+
+.background4{
+	width: 1920px;
+	height: 830px;
+	background-color: black;
+}
+
+.background5{
+	width: 100%;
+	height: 110%;
+	background-image: url(Mockupimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: : relative;
+	overflow-y: auto;
+}
+
+.backgroundlogin{
+	width: 100%;
+	height: 110%;
+	background-image: url(Mockupimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: : relative;
+	overflow-y: auto;
+}
+
+.background6{
+
+	width: 1920px;
+	height: 1760px;
+	background-color: black;
+}
+
+
+.nav{
+	width: 355px;
+	
+
+}
+.nav a{
+	
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 10px 0;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	
+}
+.nav a:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+.a{
+	width: 90%;
+}
+
+.b{
+	width: 90%;
+	
+}
+
+.c{
+	top: 90%;
+	width: 90%;
+}
+
+.d{
+	width: 90%;
+}
+
+.e{
+	width: 90%;
+}
+
+
+
+.content{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	right: 0;
+	top: 10%;
+}
+
+.personalinfo{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+
+.personalinfo h1{
+	position: fixed;
+	bottom: 170px;
+	font-size: 30px;
+	border-bottom: 1px solid white;
+
+	color: skyblue;
+	
+
+}
+.personalinfo h3{
+	position: fixed;;
+	bottom: 230px;
+	text-align: center;
+	font-size: 10px;
+	position: relative;
+	color: white;
+}
+
+.personalinfo h2{
+	position: fixed;
+	right: 810px;
+	top: 260px;
+	text-align: center;
+	color: purple;
+	font-size: 60px;
+	
+	
+}
+
+
+
+.about{
+	background-color: black;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+}
+
+.gallery1{
+	position: absolute;
+	left: 325px;
+	top: 8px;
+	
+}
+
+
+.gallery2{
+	position: absolute;
+	left: 620px;
+	top: 8px;
+	
+}
+
+.gallery3{
+	position: absolute;
+	left: 915px;
+	top: 8px;
+	
+}
+
+.gallery4{
+	position: absolute;
+	left: 325px;
+	top: 445px;
+	
+}
+
+.gallery5{
+	position: absolute;
+	left: 620px;
+	top: 445px;
+	
+}
+
+.gallery6{
+	position: absolute;
+	left: 915px;
+	top: 450px;
+	
+}
+
+
+
+.gallery7{
+	position: absolute;
+	left: 325px;
+	top: 882px;
+}
+
+.gallery8{
+	position: absolute;
+	left: 620px;
+	top: 882px;
+	
+}
+
+.gallery9{
+	position: absolute;
+	left: 915px;
+	top: 882px;
+}
+
+.gallery99{
+	position: absolute;
+	left: 325px;
+	top: 1320px;
+}
+
+.gallery10{
+	position: absolute;
+	left: 620px;
+	top: 1320px;
+}
+
+.gallery11{
+	position: absolute;
+	left: 915px;
+	top: 1320px;
+}
+
+.logo {
+	position: relative;
+	left: 450px;
+	top:-400px;
+
+  width: 300px;
+  height: 300px;
+  box-shadow: none;
+  }
+	
+.school h3{
+position: absolute;
+	left: 540px;
+	top: 275px;
+	font-size: 30px;	
+	color: white;	
+}
+
+.school h4{
+position: absolute;
+	left: 580px;
+	top: 320px;
+	font-size: 17px;	
+	color: white;	
+}
+
+.school h5{
+position: absolute;
+	left: 720px;
+	top: 350px;
+	font-size: 17px;	
+	color: white;	
+}
+
+.ucuschool{
+	position: absolute;
+	left: 465px;
+	bottom: 100px;
+	top:380px;
+
+}
+.ucuschoolinfo{
+	position: absolute;
+	font-family: calibri;
+	color: white;
+	left: 100px;
+	top: 730px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.icfschool{
+	position: absolute;
+	left: 470px;
+	bottom: 100px;
+	top:1510px;
+}
+.major1{
+	position: absolute;
+	left: 450px;
+	top: 915px;
+	bottom: 80px;
+}
+
+.major2{
+	position: absolute;
+	left: 650px;
+	top: 915px;
+	bottom: 100px;
+}
+
+.major3{
+	position: absolute;
+	left: 850px;
+	top: 915px;
+	bottom: 100px;
+}
+
+
+
+.icfschoolinfo{
+	position: absolute;
+	font-family: calibri;
+	color: white;
+	left: 100px;
+	top: 1850px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.logo2{
+	position: absolute;
+	left: 450px;
+	top: 1060px;
+  width: 300px;
+  height: 300px;
+  box-shadow: none;
+  }
+
+  .school2 h3{
+position: absolute;
+	left: 430px;
+	top: 1400px;
+	font-size: 30px;	
+	color: white;
+}
+
+.school2 h4{
+position: absolute;
+	left: 600px;
+	top: 1440px;
+	font-size: 17px;	
+	color: white;	
+}
+
+.school2 h5{
+position: absolute;
+	left: 730px;
+	top: 1460px;
+	font-size: 13px;	
+	color: white;	
+}
+
+.jan{
+
+position: absolute;
+	left: 380px;
+	top: 15px;
+	text-align: center;
+	color: white;
+	background-color: #99b898;
+}
+
+.dis{
+	visibility: hidden;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	width: 120px;
+	padding: 5px 0;
+	z-index: 1;
+	position: absolute;
+
+}
+
+.jan1:hover .dis{
+	visibility: visible;
+}
+
+.feb12:hover .dis{
+
+visibility: visible;
+}
+
+.feb25:hover .dis{
+
+visibility: visible;
+}
+
+.mar11:hover .dis{
+
+visibility: visible;
+}
+.apr1:hover .dis{
+
+visibility: visible;
+}
+.apr2:hover .dis{
+
+visibility: visible;
+}
+.apr3:hover .dis{
+
+visibility: visible;
+}
+.apr4:hover .dis{
+
+visibility: visible;
+}
+.apr9:hover .dis{
+
+visibility: visible;
+}
+.may1:hover .dis{
+
+visibility: visible;
+}
+.may13:hover .dis{
+
+visibility: visible;
+}
+.jun12:hover .dis{
+
+visibility: visible;
+}
+.jul20:hover .dis{
+
+visibility: visible;
+}
+.jul21:hover .dis{
+
+visibility: visible;
+}
+.aug10:hover .dis{
+
+visibility: visible;
+}
+.aug21:hover .dis{
+
+visibility: visible;
+}
+.aug30:hover .dis{
+
+visibility: visible;
+}
+.oct19:hover .dis{
+
+visibility: visible;
+}
+.nov1:hover .dis{
+
+visibility: visible;
+}
+.nov30:hover .dis{
+
+visibility: visible;
+}
+.dec8:hover .dis{
+
+visibility: visible;
+}
+.dec25:hover .dis{
+
+visibility: visible;
+}
+.dec30:hover .dis{
+
+visibility: visible;
+}
+
+#maintable td.jan1 {color:red;}
+#maintable td.feb12 {color:red;}
+#maintable td.feb25 {color:red;}
+#maintable td.mar11 {color:blue;}
+#maintable td.apr1 {color:red;}
+#maintable td.apr2 {color:red;}
+#maintable td.apr3 {color:red;}
+#maintable td.apr4 {color:red;}
+#maintable td.apr9 {color:red;}
+#maintable td.may1 {color:red;}
+#maintable td.may13 {color:red;}
+#maintable td.jun12 {color:red;}
+#maintable td.jul20 {color:red;}
+#maintable td.jul21 {color:blue;}
+#maintable td.aug10 {color:blue;}
+#maintable td.aug21 {color:red;}
+#maintable td.aug30 {color:red;}
+#maintable td.oct19 {color:blue;}
+#maintable td.nov1 {color:red;}
+#maintable td.nov30 {color:red;}
+#maintable td.dec8 {color:blue;}
+#maintable td.dec25 {color:red;}
+#maintable td.dec30 {color:red;}
+
+
+
+
+
+.feb{
+
+position: absolute;
+	left: 655px;
+	top: 15px;
+	text-align: center;
+	color: white;
+	background-color: #99b898;
+}
+
+.mar{
+
+position: absolute;
+	left: 930px;
+	top: 15px;
+	text-align: center;
+	color: white;
+	background-color: #99b898;
+}
+
+.apr{
+
+position: absolute;
+	left: 380px;
+	top: 220px;
+	text-align: center;
+	color: white;
+	background-color: #45ADA8;
+}
+
+.may{
+
+position: absolute;
+	left: 655px;
+	top: 220px;
+	text-align: center;
+	color: white;
+	background-color: #45ADA8;
+}
+
+.jun{
+
+position: absolute;
+	left: 930px;
+	top: 220px;
+	text-align: center;
+	color: white;
+	background-color: #45ADA8;
+}
+
+.jul{
+
+position: absolute;
+	left: 380px;
+	top: 425px;
+	text-align: center;
+	color: white;
+	background-color: #355C7D;
+}
+
+.aug{
+
+position: absolute;
+	left: 655px;
+	top: 425px;
+	text-align: center;
+	color: white;
+	background-color: #355C7D;
+}
+
+.sep{
+
+position: absolute;
+	left: 930px;
+	top: 425px;
+	text-align: center;
+	color: white;
+	background-color: #355C7D;
+}
+
+.oct{
+
+position: absolute;
+	left: 380px;
+	top: 630px;
+	text-align: center;
+	color: white;
+	background-color: #2A363B;
+	
+}
+
+.nov{
+
+position: absolute;
+	left: 655px;
+	top: 630px;
+	text-align: center;
+	color: white;
+	background-color: #2A363B;
+}
+
+.dec{
+
+position: absolute;
+	left: 930px;
+	top: 630px;
+	text-align: center;
+	color: white;
+	background-color: #2A363B;
+}
+
+#maintable td.sunday {color:red;}
+
+.cv{
+position: absolute;
+	left: 36%;
+	top: 10px;
+
+}
+
+
+
+.fbicon{
+		position: absolute;
+	left: 1350px;
+	top: 8px;
+
+	}
+
+	.instaicon{
+		position: absolute;
+	left: 1400px;
+	top: 8px;
+
+	}
+
+	.yticon{
+		position: absolute;
+	left: 1450px;
+	top: 8px;
+
+	}
+
+	.twittericon{
+	position: absolute;
+	left: 1500px;
+	top: 8px;
+
+	}
+
+	.calendarlogo{
+	position: absolute;
+	left: 1350px;
+	top: 60px;
+
+	}
+.jarvis{
+		position: absolute;
+		left: 55px;
+		top: 25px;
+	}
+	.namepass{
+		position: absolute;
+		left: 720px;
+		top: 400px;			
+	}
+
+	.jarvis1{
+		position: absolute;
+		left:235px;
+		top:300px;
+	}
+
+	.jarvis2{
+		position: absolute;
+		left:1300px;
+		top:300px;
+	}
+	
+	.jarvis3{
+		position: absolute;
+		left:1300px;
+		top:500px;
+	}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo login</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	
+<style>
+	
+</style>
+<center>
+<body>
+	
+	<div class="background1234">
+		<div class="jarvis">
+			<img src="Visual Library.gif"width="350px" height="400.5px">
+		</div>
+	 
+	
+		<h1 style="font-family:verdana; color:rgb(81, 91, 172);">SIMPLE LOGIN FORM</h1>
+
+	<div class = "namepass">
+	<form>
+		
+	 <input type="text" id="uname" placeholder="Username"required> <br></br>
+	<input type="password" id="pswrd"placeholder="Password"required> <br></br>
+
+		<input type="submit" onclick="login()" value="LOGIN" class="btn btn-danger">
+	</form>
+</div>
+<div class="jarvis3">
+	<img src="stark.gif"width="250px" height="300.5px">
+</div>
+
+
+<script type="text/javascript">
+
+	function login() {
+		var duname = "ucu";
+		var dpswrd = "admin";
+
+		uname = document.getElementById('uname').value;
+		pswrd = document.getElementById('pswrd').value;
+
+		if (duname == uname && dpswrd == pswrd) {
+			alert("Welcome to UCU");
+		
+		}else if (duname != uname && dpswrd == pswrd){
+			alert("Incorrect Username!");
+		
+
+		}else if (duname == uname && dpswrd != pswrd){
+			alert("Incorrect Password!");
+		
+
+		}else {
+			alert("Access Denied!");
+		}
+	}
+	
+	
+
+
+
+</script>
+</div>
+</body>
+</center>
+</html>
